@@ -1,0 +1,13 @@
+DAX Func to create a Calendar Table: 
+
+Calendar = 
+    ADDCOLUMNS(
+        CALENDARAUTO(),
+        "Year", YEAR([Date]),
+        "Month", FORMAT([Date],"mmm"),
+        "Monthnum", MONTH([Date]),
+        "Weekday", FORMAT([Date], "ddd"),
+        "Weeknum", WEEKDAY([Date]),
+        "Qtr", "Q-" & FORMAT([Date], "Q"),
+        "WeekType", IF(WEEKDAY([Date])=1 || WEEKDAY([Date]) = 7 , "Weekend", "Weekday")
+    )
