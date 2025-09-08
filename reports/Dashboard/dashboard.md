@@ -39,10 +39,9 @@ The dashboard helps visualize how each brand performs across **years, units sold
 
 ## 📂 Repository Structure
 
-├── data/ # Source data files (CSV/Excel)
-├── scripts/ # Python scripts for preprocessing & forecasting
-├── screenshots/ # Additional dashboard images
-├── videos/ # Demo recordings
-├── Screenshot 2025-09-06 221844.png # Dashboard screenshot
-├── Screen Recording 2025-09-06 222026.mp4 # Demo video
-└── README.md
+├── data/ # Source data files (CSV/Excel) /n
+├── screenshots/ # Additional dashboard images /n
+├── videos/ # Demo recordings /n
+├── Screenshot 2025-09-06 221844.png # Dashboard screenshot /n
+├── Screen Recording 2025-09-06 222026.mp4 # Demo video /n
+└── dashboard.md /n
