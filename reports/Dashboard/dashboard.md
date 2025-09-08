@@ -12,8 +12,8 @@ The dashboard helps visualize how each brand performs across **years, units sold
 
 
 ### Demo Video
-![Dashboard Demo](Screen%20Recording%202025-09-06%20222026.mp4)
-<video controls src="Screen Recording 2025-09-06 222026.mp4" title="Demo Video"></video>
+[▶️ Watch Dashboard Demo](Screen%20Recording%202025-09-06%20222026.mp4)
+<video src="Screen%20Recording%202025-09-06%20222026.mp4" controls width="600"></video>
 
 
 ---
