@@ -8,8 +8,7 @@ The dashboard helps visualize how each brand performs across **years, units sold
 ## 📊 Dashboard Preview
 
 ### Screenshot
-![Dashboard Screenshot](Screenshot%202025-09-06%20221844.png)
-![Screenshort](<Screenshot 2025-09-06 221844.png>)
+![Dashboard Screenshort](<Screenshot 2025-09-06 221844.png>)
 
 
 ### Demo Video
