@@ -39,9 +39,9 @@ The dashboard helps visualize how each brand performs across **years, units sold
 
 ## 📂 Repository Structure
 
-├── data/ # Source data files (CSV/Excel) \n
-├── screenshots/ # Additional dashboard images \n
-├── videos/ # Demo recordings \n
-├── Screenshot 2025-09-06 221844.png # Dashboard screenshot \n
-├── Screen Recording 2025-09-06 222026.mp4 # Demo video \n
-└── dashboard.md \n
+├── data/ # Source data files (CSV/Excel) <br>
+├── screenshots/ # Additional dashboard images <br>
+├── videos/ # Demo recordings <br>
+├── Screenshot 2025-09-06 221844.png # Dashboard screenshot <br>
+├── Screen Recording 2025-09-06 222026.mp4 # Demo video <br>
+└── dashboard.md <br>
