@@ -1,106 +1,112 @@
 # Post-COVID Demand Forecasting and Production Optimization in the Indian Automobile Sector  
-### A Multi-Company Case Study Using Machine Learning, Game Theory & Streamlit  
+### A Case Study Using Machine Learning & Game Theory  
 
 ---
 
 ## 📖 Project Overview  
-The COVID-19 pandemic caused a major disruption in the Indian automobile sector. With a surge in demand for personal vehicles, manufacturers rapidly increased production. However, as demand normalized, the industry faced **overproduction, high inventory, and heavy discounting (₹1–5 lakh per vehicle)**.  
+The COVID-19 pandemic disrupted the Indian automobile industry. Initially, demand for personal vehicles surged, leading automakers to aggressively scale up production. But once demand stabilized, **unsold inventories piled up**, and companies were forced to offer **heavy discounts (₹10k–50k per vehicle)**.  
 
-This project leverages **Machine Learning, Game Theory, and a Streamlit-based interactive dashboard** to:  
-- Forecast post-COVID car sales  
-- Optimize production planning across multiple automobile companies  
-- Model strategic competition between auto manufacturers  
-- Provide a **dynamic app for decision-makers**  
+This project addresses the **forecasting and production mismatch problem** using:  
+- **Machine Learning models** for accurate demand prediction  
+- **Game Theory models** to analyze competitive dynamics between firms  
+- **Optimization strategies** to align production with demand  
 
-By integrating predictive analytics, optimization, and strategic modeling, the project aims to **minimize excess inventory, reduce discounts, and maximize profitability**.  
+The objective is to **minimize overproduction, reduce discounts, and improve profitability** across companies.  
 
 ---
 
 ## 🔑 Problem Statement  
-The Indian auto sector witnessed **demand fluctuations post-COVID**, making it difficult for manufacturers to align production with actual sales. Incorrect planning resulted in:  
-- **Excess inventory & high carrying costs**  
-- **Revenue loss due to discounts**  
-- **Underutilized capacity**  
+The mismatch between actual demand and production planning post-COVID resulted in:  
+- Excess inventory and carrying costs  
+- Heavy discounting and reduced profitability  
+- Lack of robust forecasting and planning tools  
 
-This project proposes **ML-driven forecasting + optimization techniques + game theory models**, deployed through a **Streamlit application**, to help manufacturers make **data-driven production decisions**.  
+This study proposes a **data-driven framework combining ML + Game Theory** to forecast demand, optimize production, and model competition.  
 
 ---
 
-## 🚗 Companies Studied  
-The project covers major players in the Indian automobile industry:  
-- **Mahindra & Mahindra**  
-- **Honda Cars India**  
-- **Hyundai**  
-- **Kia**  
-- **Volkswagen**  
-- **Skoda**  
-- **Tata Motors**  
-- **Maruti Suzuki**  
+## 🚗 Companies Analyzed  
+The dataset includes **8 major Indian automobile manufacturers**:  
+- Mahindra & Mahindra  
+- Honda Cars India  
+- Hyundai  
+- Kia  
+- Maruti Suzuki (Nexa)  
+- Tata Motors  
+- Skoda  
+- Volkswagen  
 
 ---
 
 ## 🧰 Methodology  
 
-1. **Data Collection**  
-   - Historical sales, production, and macroeconomic indicators (2020–2025).  
-   - Sources: SIAM, Statista, industry reports, company filings.  
+1. **Data Collection & Cleaning**  
+   - Timeframe: **2019–2025**  
+   - Sources: SIAM, company filings, industry reports  
+   - Preprocessing: Missing value handling, normalization, feature engineering  
 
-2. **Data Preprocessing**  
-   - Handling missing values  
-   - Feature engineering (COVID dummy variable, fuel prices, interest rates, festive season effects)  
-   - Normalization & scaling  
+2. **Exploratory Data Analysis (EDA)**  
+   - Sales and production fluctuations  
+   - Seasonal patterns and consumer behavior shifts post-COVID  
 
-3. **Exploratory Data Analysis (EDA)**  
-   - Post-COVID demand patterns  
-   - Seasonal/cyclic sales trends  
-   - Correlation between production & sales  
-
-4. **Forecasting Models**  
+3. **Forecasting Models**  
    - Linear Regression  
-   - Decision Tree Regression  
    - Random Forest Regression  
    - XGBoost Regression  
 
-5. **Clustering (Demand Segmentation)**  
-   - **KMeans Clustering** to segment demand by company/product/region  
+4. **Game Theory Analysis**  
+   - Focused on **Mahindra and Honda (duopoly case study)**  
+   - Modeled **Cournot competition** and **Nash Equilibrium** for production decisions  
 
-6. **Optimization**  
-   - Rule-based Thresholding  
-   - **Linear Programming (LP)** for optimal production planning  
+5. **Model Evaluation**  
+   - RMSE, MAE, and R² used for accuracy and reliability  
 
-7. **Game Theory Analysis**  
-   - **Cournot Model** for production competition  
-   - **Nash Equilibrium** to model competitive strategies among multiple firms  
-
-8. **Dynamic Application (Deployment)**  
-   - **Streamlit App (app.py)** developed to:  
-     - Allow company-wise demand forecasting  
-     - Visualize sales & production trends interactively  
-     - Run optimization models dynamically  
-     - Simulate competitive scenarios between manufacturers  
-
-9. **Model Evaluation**  
-   - Metrics: **RMSE, MAE, R²**  
+6. **Strategic Insights**  
+   - Optimal production strategies to reduce stock build-up  
+   - Pricing and discounting strategies to sustain profitability  
 
 ---
 
 ## 📊 Tools & Technologies  
-- **Python** (Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, PuLP)  
-- **Streamlit** (app deployment, dynamic analysis)  
-- **Jupyter Notebook** (development & testing)  
-- **Power BI / Tableau** (visual storytelling)  
+- **Python**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn  
+- **Streamlit**: (for deployment, future extension)  
+- **Power BI**: Visualization and storytelling  
+- **Figma**: Dashboard visuals
+- **MS Excel**: Data handling and data cleaning
+- **MS PowerPoint**: Understanding of the project
+- **MS Word**: Report
 
 ---
 
-## 🎯 Project Significance  
-✅ Tackles real post-COVID challenges in the Indian auto sector  
-✅ Covers **8 major automobile companies**, making analysis industry-wide  
-✅ Prevents **overproduction & unsold inventory** using ML forecasts  
-✅ Supports **profit optimization** by minimizing discounts  
-✅ Applies **game theory** to study competitive strategies among multiple firms  
-✅ Provides a **dynamic Streamlit app** for decision-makers  
+## 🎯 Project Objectives  
+✔ Accurately forecast demand in the Indian auto market (post-COVID)  
+✔ Optimize production to avoid overstock and discounting  
+✔ Apply **ML + Game Theory** to balance demand, production, and competition  
+✔ Provide **strategic, data-driven recommendations**  
+
+---
+
+## 📌 Conclusion  
+This project shows that **Machine Learning + Game Theory** provides a robust framework for:  
+- More accurate demand forecasting  
+- Smarter production planning  
+- Reducing unnecessary discounts  
+- Sustaining long-term profitability in the Indian automobile sector  
+
+---
+
+## 📂 Documentation
+
+| File | Description |
+|------|-------------|
+| [README.md](README.md) | Project overview |
+| [ML_Methodology.md](ML_Methodology.md) | Machine learning methodology |
+| [Dashboard.md](reports/dashboard.md) | Dashboard description |
+
 
 ---
 
 ## 📌 Keywords  
-`Linear Regression` `Decision Tree` `Random Forest` `XGBoost` `KMeans Clustering` `Linear Programming` `Game Theory` `Streamlit`  
+`Linear Regression` `Random Forest` `XGBoost` `Game Theory` `Cournot Model` `Nash Equilibrium` `Optimization` `Automobile Forecasting`  
+
+---
